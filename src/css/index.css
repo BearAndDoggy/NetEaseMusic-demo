@@ -280,6 +280,10 @@ section > h2:first-child {
     height: 5.87vw;
     fill: #888888;
 }
+.page-3 {
+    -webkit-tap-highlight-color: transparent;
+
+}
 
 .page-3 div.search {
     position: relative;

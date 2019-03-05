@@ -17,10 +17,13 @@
         init(view, model){
             this.view = view
             this.model = model
+            this.bindEvents()
             this.bindEventHub()
         },
         bindEvents(){
-            
+            $(this.view.el).on('click', ()=>{
+                alert('搜索功能上线中~')
+            })
         },
         bindEventHub(){
             window.eventHub.on('selected', (tabName)=>{
